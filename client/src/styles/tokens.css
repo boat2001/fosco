@@ -1,0 +1,91 @@
+/* Design tokens sampled from the original FOSCO theme. */
+
+:root {
+  /* Brand — the green and deep navy carried over from the live site */
+  --green-50: #eef7f1;
+  --green-100: #deece2;
+  --green-200: #b9dcc7;
+  --green-300: #8ecba7;
+  --green-400: #66cfa9;
+  --green-500: #39a460; /* primary */
+  --green-600: #2f8a51;
+  --green-700: #256d40;
+  --green-800: #1b512f;
+
+  --navy-900: #141b2b;
+  --navy-800: #1b2336; /* headings, footer */
+  --navy-700: #232d45;
+  --navy-600: #323c54;
+  --navy-500: #415674;
+  --navy-400: #4c5e78; /* body copy */
+  --navy-300: #667e9f;
+  --navy-200: #97a7bd;
+
+  --gold-500: #ffb606; /* accent used for highlights */
+
+  --surface: #ffffff;
+  --surface-alt: #f6f8f7;
+  --surface-tint: #eef7f1;
+  --border: #e3e8ee;
+  --border-strong: #cfd8e3;
+
+  --text: var(--navy-400);
+  --heading: var(--navy-800);
+  --muted: var(--navy-300);
+
+  /* Typography — the original theme's families, self-hosted */
+  --font-body: 'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-head: 'Red Hat Display', 'Public Sans', system-ui, sans-serif;
+  --font-accent: 'Rajdhani', 'Public Sans', system-ui, sans-serif;
+
+  --step--1: clamp(0.82rem, 0.79rem + 0.13vw, 0.89rem);
+  --step-0: clamp(0.95rem, 0.92rem + 0.16vw, 1.05rem);
+  --step-1: clamp(1.14rem, 1.07rem + 0.33vw, 1.35rem);
+  --step-2: clamp(1.38rem, 1.25rem + 0.62vw, 1.78rem);
+  --step-3: clamp(1.66rem, 1.44rem + 1.05vw, 2.36rem);
+  --step-4: clamp(2rem, 1.63rem + 1.75vw, 3.15rem);
+  --step-5: clamp(2.4rem, 1.8rem + 2.9vw, 4.2rem);
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1rem;
+  --space-6: 1.25rem;
+  --space-7: 1.5rem;
+  --space-8: 2rem;
+  --space-9: 2.75rem;
+
+  --container: 1280px;
+  --container-narrow: 860px;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(20, 27, 43, 0.06), 0 1px 3px rgba(20, 27, 43, 0.04);
+  --shadow: 0 4px 16px rgba(20, 27, 43, 0.08);
+  --shadow-lg: 0 18px 44px rgba(20, 27, 43, 0.14);
+  --shadow-xl: 0 40px 80px -20px rgba(20, 27, 43, 0.35);
+  --shadow-green: 0 18px 40px -12px rgba(57, 164, 96, 0.45);
+
+  /* Gradients */
+  --grad-green: linear-gradient(135deg, var(--green-500) 0%, var(--green-700) 100%);
+  --grad-dark: linear-gradient(150deg, var(--navy-800) 0%, var(--navy-900) 60%, #0f1826 100%);
+  --grad-sheen: linear-gradient(120deg, transparent 20%, rgba(255, 255, 255, 0.28) 50%, transparent 80%);
+
+  /* A soft two-point colour wash used behind light sections. */
+  --mesh-light:
+    radial-gradient(60% 55% at 12% 8%, rgba(57, 164, 96, 0.10) 0%, transparent 60%),
+    radial-gradient(50% 50% at 92% 20%, rgba(255, 182, 6, 0.10) 0%, transparent 60%);
+  --mesh-dark:
+    radial-gradient(55% 50% at 15% 12%, rgba(57, 164, 96, 0.30) 0%, transparent 62%),
+    radial-gradient(45% 45% at 88% 80%, rgba(102, 207, 169, 0.18) 0%, transparent 60%);
+
+  --header-h: 68px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}

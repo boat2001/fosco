@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.local
+
+# Raw archive HTML pulled down by the scrapers — regenerate with npm run scrape:pages
+.scrape/
+
+# SQLite database and staff-uploaded media are runtime state, not source
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+client/public/uploads/
