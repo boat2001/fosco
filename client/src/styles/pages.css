@@ -189,7 +189,7 @@
   grid-template-columns: auto 1fr;
   gap: var(--space-3);
   align-items: start;
-  padding: var(--space-4);
+  padding: 1.15rem;
   color: var(--text);
   position: relative;
   border-bottom: 1px solid var(--border);
@@ -337,7 +337,7 @@
 
 .page-banner {
   position: relative;
-  padding-block: var(--space-7);
+  padding-block: 2rem;
   background: var(--navy-800);
   color: #fff;
   isolation: isolate;
@@ -446,17 +446,17 @@
 }
 
 .prose > * + * {
-  margin-top: var(--space-4);
+  margin-top: 1rem;
 }
 
 .prose h2 {
   font-size: var(--step-2);
-  margin-top: var(--space-6);
+  margin-top: 1.75rem;
 }
 
 .prose h3 {
   font-size: var(--step-1);
-  margin-top: var(--space-5);
+  margin-top: 1.5rem;
 }
 
 .prose ul,
@@ -487,7 +487,7 @@
 }
 
 .admissions-callout {
-  margin-bottom: var(--space-5);
+  margin-bottom: 1.5rem;
   padding: clamp(1.35rem, 4vw, 2.25rem);
   border: 1px solid var(--green-200);
   border-radius: var(--radius-lg);
@@ -542,7 +542,7 @@
 /* News --------------------------------------------------------------------- */
 
 .article__header {
-  margin-bottom: var(--space-4);
+  margin-bottom: 1.25rem;
 }
 
 .article__meta {
@@ -558,7 +558,7 @@
 .article__hero {
   border-radius: var(--radius-lg);
   overflow: hidden;
-  margin-bottom: var(--space-4);
+  margin-bottom: 1.25rem;
   aspect-ratio: 16 / 9;
 }
 
@@ -574,7 +574,7 @@
 }
 
 .article__body p + p {
-  margin-top: var(--space-4);
+  margin-top: 1rem;
 }
 
 .article__gallery {
@@ -623,7 +623,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin-bottom: var(--space-5);
+  margin-bottom: 1.25rem;
 }
 
 .filter-bar button {
@@ -706,7 +706,7 @@
 
 .contact-grid {
   display: grid;
-  gap: var(--space-5);
+  gap: 1.5rem;
 }
 
 @media (min-width: 900px) {
@@ -717,7 +717,7 @@
   list-style: none;
   padding: 0;
   display: grid;
-  gap: var(--space-5);
+  gap: 1.25rem;
 }
 
 .contact-list li {
@@ -787,7 +787,7 @@
   background: #fff;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: var(--space-4);
+  padding: 1.25rem;
 }
 
 .panel + .panel {
